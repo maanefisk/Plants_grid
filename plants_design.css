@@ -1,0 +1,30 @@
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+div.page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 'menu header'
+                        'menu maincontent'
+                        'footer footer'
+}
+
+img.header {
+
+}
+
+img.menu {
+
+}
+
+img.maincontent {
+
+}
+
+img.footer {
+
+}
