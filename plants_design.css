@@ -5,26 +5,26 @@ body {
 }
 
 div.page {
+    height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 'menu header'
-                        'menu maincontent'
-                        'footer footer'
+                        'maincontent footer'
 }
 
 img.header {
-
+grid-area: header;
 }
 
 img.menu {
-
+    grid-area: menu;
 }
 
 img.maincontent {
-
+   grid-area: maincontent;
 }
 
 img.footer {
-
+    grid-area: footer;
 }
