@@ -7,24 +7,28 @@ body {
 div.page {
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 'menu header'
                         'maincontent footer'
 }
 
 img.header {
+    background-color: blue;
 grid-area: header;
 }
 
 img.menu {
+    background-color: blueviolet;
     grid-area: menu;
 }
 
 img.maincontent {
+    background-color: chartreuse;
    grid-area: maincontent;
 }
 
 img.footer {
+    background-color: darkcyan;
     grid-area: footer;
 }
